@@ -1,0 +1,70 @@
+/* RESET */
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input, button, textarea{
+    font: inherit;
+}
+
+/* UTILITIES */
+
+.nowrap{
+    white-space: nowrap;
+}
+
+/* GENERAL STYLES */
+
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    text-align: center;
+    background-color: lightgray;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid white;
+    border-radius: 20px;
+    max-width: 300px;
+    margin-top: 10%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.container__figure{
+    margin: 0.5rem;
+}
+.fig__img{
+    border-radius: 10px;
+}
+.article__h1{
+    margin: 1rem;
+}
+.article__p{
+    margin: 1rem;
+    color: rgba(0, 0, 0, 0.623);
+}
+.p__span1{
+    margin: 0.5rem;
+}
+.p__span3{
+    margin: 5rem;
+}
